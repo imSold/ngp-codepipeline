@@ -5,3 +5,10 @@ lambda/node_modules/
 
 # Emacs
 *~
+
+.idea/
+
+lambda/lambdafunction.zip
+
+AddSpecification.txt
+pipeline.yaml

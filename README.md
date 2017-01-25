@@ -6,9 +6,12 @@
 3. The application repository must contain `ecs/service.yaml` and `buildspec.yaml`.
 
 ### Steps to install.
-1. Run `bash bin/configure.sh`.
-2. Open the link and at the end of the script to continue the installation.
-3. Sample parameters can be seen in `parameter.json`
+1. Add Application specific parameters such as environment variables and
+ ports, that needs to be replaced in `ecs/service.yaml` in 
+ `AppSpecifications.txt` file.
+2. Run `bash bin/configure.sh`.
+3. Open the link and at the end of the script to continue the installation.
+4. Sample parameters can be seen in `parameter.json`
 
 ### Architecture
 ![Preview](CICDPipeline.png)
